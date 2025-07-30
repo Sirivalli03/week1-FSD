@@ -1,0 +1,94 @@
+<!-- Build a responsive web application for shopping carts with registration, login, catalog and cart pages using 
+CSS3 features, flex and grid.   -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H mart</title>
+    <style>
+         body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: Roboto, sans-serif;
+        } 
+        .xx {
+            text-align: center;
+             padding: 20px; 
+             background: white; 
+             border-radius: 10px; 
+             box-shadow: 0 0 15px rgba(0,0,0,0.1); 
+             width: 90%; 
+             max-width: 500px;
+        }
+         header {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      background-color: lightgreen;
+    }
+
+    header img {
+      width: 80px;
+      height: 75px;
+    }
+
+    header h1 {
+      color: red;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+  .nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  background-color: #c3c977;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  flex: 1;
+  text-align: center;
+}
+ main {
+      flex: 1;
+      padding: 20px;
+      text-align: center;
+    }
+
+footer {
+      background-color: blue;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+    </style>
+
+</head>
+<body>
+     <header>
+    <img src="https://cdn.pixabay.com/photo/2014/04/02/10/53/shopping-cart-304843_640.png" alt="Logo" />
+    <h1>H Mart</h1>
+     </header>
+     <div class="nav-bar">
+       
+            <a href="regis.html">Register</a>
+            <a href="logun.html">Login</a>
+            <a href="cat.html">Catalog</a>
+            <a href="cart.html">Cart</a>
+       
+       
+    </div>
+    <main>
+    <p style="font-size: 50px;">Welcome to H Mart!</p>
+   </main>
+
+    <div>
+      <footer>@2025 copy rights reserved</footer>
+    </div>
+</body>
+</html>

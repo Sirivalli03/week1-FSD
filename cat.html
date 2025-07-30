@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Grid - CSS Grid</title>
+  <style>
+    body {
+      background-color: #fdfae6;
+      font-family: Arial, sans-serif;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+      gap: 5px;
+      /* max-width: 1300px; */
+      margin: 10px;
+      padding: 10px;
+      justify-items: center;
+    }
+
+    .product-card {
+      background-color: lightgoldenrodyellow;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 5px;
+      margin: auto;
+      width: 4in;
+      gap: 5px;
+    }
+
+    /* button {
+      padding: 6px 12px;
+      background-color: orange;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    } */
+
+    h2 {
+      text-align: center;
+      margin-top: 20px;
+      color: red;
+      font-family: Roboto;
+      font-weight: bold;
+    }
+    p {
+      font-size: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Product List</h2>
+
+  <div class="grid-container">
+    
+    <div class="product-card">
+      <img src="https://www.kokuyocamlin.com/camel/gallery/individual/canvases/canvas-boards/small/individual-small-canvas-with-size-20-cm-x-25-cm/1.jpg" width="150" height="150" />
+      <div>
+        <h3>Camel canvas</h3>
+        <p>Product details: height 3ft, width 3ft<br>Rating ⭐⭐⭐</p>
+        <p>Price: ₹100</p>
+        <button>Add to cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/16354878/2022/1/28/461c0cec-1438-459d-b5ed-7e8c650b1fcd1643373620367-Crocs-Unisex-Sandals-4431643373620037-1.jpg" width="200" height="150" />
+      <div>
+        <h3>Crocs women</h3>
+        <p>Product details: height 3ft, width 3ft<br>Rating ⭐⭐⭐</p>
+        <p>Price: ₹2000</p>
+        <button>Add to cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://veirdo.in/cdn/shop/files/ai_creative_0000_Layer_6.jpg?v=1753523582" width="200" height="150" />
+      <div>
+        <h3>Oversized Tee</h3>
+        <p>Stylish tees for boys. Available in 4 different sizes.<br>Rating ⭐⭐⭐⭐</p>
+        <p>Price: ₹299.9</p>
+        <button>Add to cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://michaelkors.scene7.com/is/image/MichaelKors/30F4T9JT3L-0230_3?$large$" width="250" height="150" />
+      <div>
+        <h3>Tote Bag</h3>
+        <p>Stylish bag for women. Available in 4 different colours. height 30cm width 28cm<br>Rating ⭐⭐⭐</p>
+        <p>Price: ₹2000</p>
+        <button>Add to cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://genietravel.com/cdn/shop/files/45DegreeAngle2_3731809d-b075-4bb8-a531-e8447b894615_1200x.jpg?v=1737027793" width="200" height="150" />
+      <div>
+        <h3>Geinie Bags</h3>
+        <p>Product details: height 3ft, width 3ft<br>Rating ⭐⭐⭐</p>
+        <p>Price: ₹1800</p>
+        <button>Add to cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://dagnamusic.com/wp-content/uploads/2024/06/ST-10-CR-BLU-1-scaled.jpg" width="200" height="150" />
+      <div>
+        <h3>Metal Guitar</h3>
+        <p>Product details: height 3ft, width 3ft<br>Rating ⭐⭐⭐</p>
+        <p>Price: ₹2000</p>
+        <button>Add to cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://cococart.in/cdn/shop/products/81brqBDG6IL._SL1500.jpg?v=1709719460&width=1946" width="150" height="150" />
+      <div>
+        <h3>Dark chocolate</h3>
+        <p>Product details: height 3ft, width 3ft<br>Rating ⭐⭐⭐</p>
+        <p>Price: ₹2000</p>
+        <button>Add to cart</button>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="https://teddydaddy.in/wp-content/uploads/Ellie-Elephant-Stuffed-Animal-Soft-Toy-Pink-40-CM-Soft-Toy-Plush-Teddy-Daddy-4.jpg" width="200" height="150" />
+      <div>
+        <h3>Soft Toy</h3>
+        <p>Product details: height 3ft, width 3ft<br>Rating ⭐⭐⭐</p>
+        <p>Price: ₹2000</p>
+        <button>Add to cart</button>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="https://sukkhi.com/cdn/shop/products/RAK104485_28i1_29_b906019a-2585-45c9-bf40-d1ccbd1bb82f_2000x.jpg?v=1660911527" width="200" height="150" />
+      <div>
+        <h3>Unique Rakhi</h3>
+        <p>Product details: height 3ft, width 3ft<br>Rating ⭐⭐⭐</p>
+        <p>Price: ₹2000</p>
+        <button>Add to cart</button>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
